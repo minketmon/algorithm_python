@@ -7,7 +7,7 @@ string s;
 int arr[50];
 
 int getLength(int start, int end) {
-    int result = 0;
+    int result = 0;``
     for(int i=start; i<end; i++) {
         if (s[i]=='(') {
             int K = s[i-1]-'0';
