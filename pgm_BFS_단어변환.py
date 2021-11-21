@@ -14,8 +14,7 @@ def BFS(begin, target, words, visited):
     queue.append(begin)
     while len(queue) != 0:
         temp = queue.pop()
-        if compare(temp, target):
-            ans += 1
+        if temp==target:
             return ans
         else:
             for word in words:
