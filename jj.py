@@ -10,7 +10,7 @@ def solution(character, monsters):
             res.append((int(temp[1]) / int(fight(character, monster)[1])))
     who = res.index(max(res))
     answer = m[who]
-    return answer
+    return answerㅎ
 
 
 def fight(character, monster):
