@@ -40,3 +40,4 @@ def solution(tickets):
 #     case.sort(key=lambda x: x[1])
 #     visited[tickets.index(case[0])] = True
 #     route(tickets, case[0][1], visited)
+
